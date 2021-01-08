@@ -1,0 +1,43 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a3737;
+}
+
+section {
+    border-radius: 3px;
+    background-color: #afe2fa;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 3px 30px;
+    font-size: 16px;
+    color: #3a3737;
+    background-color: rgba(58, 55, 55, 0.2);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #3a3737;
+    color: #afe2fa;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
